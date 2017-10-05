@@ -9,3 +9,28 @@
 
 ### Output ###
   A file with contact predictions, usually a .mat file with a n\*n matrix where n is the length of the input protein.  
+
+
+## Content
+
+  Root --
+        |
+        bin ------
+                 |
+                 Script and programs
+
+        data -----
+                 |
+                 Raw and processed indata, examples
+
+        doc ------
+                 |
+                 Documentation and paper
+
+        results --
+                 |
+                 Results from experiments and lab notebook
+                 
+        src ------
+                 |
+                 Source files, compiled versions in the bin folder
