@@ -34,3 +34,9 @@ Initial testing is being done using the following programs:
 2017-10-05 *Manually stepping through*
   The idea today is to manually run through an example, from fasta to finished
   .mat file. 
+  With jackhmmer in the PATH the example was run without a problem. The 
+  additional script convert_sto.py converts the resulting stockholm format
+  into a3m/aln/fasta. All three working well, aln is the input for ccmpred.
+  The run_aligner.sh script takes a fasta name as input (only looks in the
+  example folder) and runs jackhmmer against swissprot, then the resulting
+  .sto file is converted into .aln.
