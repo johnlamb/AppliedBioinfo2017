@@ -51,4 +51,12 @@ Initial testing is being done using the following programs:
   All works well. Using the top_couplings.py script in the bin directory (installed with ccmpred) shows the top
   couplings (123, 115) only holds just over 0.25 in confidence. A good idea to move this project forward would be to add
   an easy script that checks a (potential) pdb-file for actual contacts so can quickly highlight true positives etc.
+  Tied together the runall.sh script to run first the aligner, then the converter and finally the predictor. Keeping
+  them all in different run-scripts makes it easier for dropin replacements.
+  So we have a full running script that takes a fasta sequence as input and returns to stdout (each part of the script
+  also returns to stdout but is captured and fed back).
+  Next step is to take this and convert to a snakemake script. The main difference here would be that the snakemake
+  script would use the intermediate files. In the current script they are all created in the /tmp and purged after use.
+
+2017-10-
 
