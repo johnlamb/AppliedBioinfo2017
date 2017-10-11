@@ -34,9 +34,21 @@ Initial testing is being done using the following programs:
 2017-10-05 *Manually stepping through*
   The idea today is to manually run through an example, from fasta to finished
   .mat file. 
-  With jackhmmer in the PATH the example was run without a problem. The 
-  additional script convert_sto.py converts the resulting stockholm format
-  into a3m/aln/fasta. All three working well, aln is the input for ccmpred.
-  The run_aligner.sh script takes a fasta name as input (only looks in the
-  example folder) and runs jackhmmer against swissprot, then the resulting
-  .sto file is converted into .aln.
+  
+  Command for running jackhmmer:
+  $ jackhmmer -A output input database > /dev/null
+
+  Using 1b9ua.fa as example input. With jackhmmer in the PATH the example was run without a problem. The additional
+  script convert\_sto.py converts the resulting stockholm format into a3m/aln/fasta. All three working well, aln is the
+  input for ccmpred.  The run\_aligner.sh script takes a fasta name as input (only looks in the example folder) and runs
+  jackhmmer against swissprot, then the resulting .sto file is converted into .aln.
+
+2017-10-11 *Running ccmpred*
+  Using the output file created with jackhmmer from the previous run, we testrun ccmpred. I have already run it with the
+  example file but lets do it with our own data.
+  Running with default options:
+  ccmpred 1b9ua.aln 1b9au.mat
+  All works well. Using the top_couplings.py script in the bin directory (installed with ccmpred) shows the top
+  couplings (123, 115) only holds just over 0.25 in confidence. A good idea to move this project forward would be to add
+  an easy script that checks a (potential) pdb-file for actual contacts so can quickly highlight true positives etc.
+
