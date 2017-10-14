@@ -58,5 +58,11 @@ Initial testing is being done using the following programs:
   Next step is to take this and convert to a snakemake script. The main difference here would be that the snakemake
   script would use the intermediate files. In the current script they are all created in the /tmp and purged after use.
 
-2017-10-
-
+2017-10-14 *Snakemake*
+  With a working script, lets convert it into snakemake. The idea now is to take each step and turn it into a snakemake
+  rule and also to keep the individual intermittent files, probably in separate directories. 
+  Alignment done in snakemake. Starting with hardcoded input and output but these will change so te be used either as
+  input or separate config file for snakemake. Alignment file created as expected in the alignment folder in the
+  results.
+  Next step is to extend this to do both the convertion and ccmpred prediction in the same script with intermediate
+  results. 

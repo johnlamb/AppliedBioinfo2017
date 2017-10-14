@@ -1,0 +1,14 @@
+Provided cores: 1
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	alignment
+	1
+
+rule alignment:
+    input: ../data/examples/1b9ua.fa
+    output: ../results/20171014_snakemake/aligned/1b9ua.sto
+    jobid: 0
+
+Finished job 0.
+1 of 1 steps (100%) done
