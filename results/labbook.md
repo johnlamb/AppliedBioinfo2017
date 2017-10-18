@@ -69,4 +69,17 @@ Initial testing is being done using the following programs:
 
 2017-10-16 *Snakemake extend*
     Ok lets add in the other steps. Output path is still hardcoded so changing to todays result folder. 
-    
+    Have changed so input and output folders are now set in the config.yaml file. (this could be overridden on the 
+    commandline by using the command *snakemake --config foo=bar*). It all flows, some tweaks and moving script
+    directory and it should all be done.
+
+2017-10-18 *Final Tweaks*
+    Full workflow working. Multiple files can be run and the result in a prediction file each and one summary file
+    in total that summarizes the top 10 couplings in each sample.
+    I have made the scripts modular so both the aligner and predictor can be replace. All that needs to be done is adjust
+    the *run_aligner.py* or *run_predictor.py* scripts in the bin/script folder. As long as these wrappers return the result
+    to stdin the will work. The *run_converter.py* script might have to be adjusted if the aligner returns a format
+    other than stockholm. Also observe the input that the predictor take.
+    Currently I have bundles this workflow with jackhmmer and ccmpred so it can run standalone. Also see the requirements
+    file in the root for python packages.
+    On to writing the report.

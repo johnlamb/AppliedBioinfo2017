@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID 1fjkA-i2
+
+#=GS sp|P61012|PPLA_CANLF/1-52 DE [subseq from] Cardiac phospholamban OS=Canis lupus familiaris GN=PLN PE=1 SV=1
+#=GS sp|P61013|PPLA_PIG/1-52   DE [subseq from] Cardiac phospholamban OS=Sus scrofa GN=PLN PE=1 SV=1
+#=GS sp|P61014|PPLA_MOUSE/1-52 DE [subseq from] Cardiac phospholamban OS=Mus musculus GN=Pln PE=1 SV=1
+#=GS sp|P61015|PPLA_RABIT/1-52 DE [subseq from] Cardiac phospholamban OS=Oryctolagus cuniculus GN=PLN PE=1 SV=1
+#=GS sp|P61016|PPLA_RAT/1-52   DE [subseq from] Cardiac phospholamban OS=Rattus norvegicus GN=Pln PE=1 SV=1
+#=GS sp|A4IFH6|PPLA_BOVIN/1-52 DE [subseq from] Cardiac phospholamban OS=Bos taurus GN=PLN PE=1 SV=1
+#=GS sp|P26678|PPLA_HUMAN/1-52 DE [subseq from] Cardiac phospholamban OS=Homo sapiens GN=PLN PE=1 SV=1
+#=GS sp|P26677|PPLA_CHICK/1-52 DE [subseq from] Cardiac phospholamban OS=Gallus gallus GN=PLN PE=2 SV=1
+
+1fjkA                             MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+sp|P61012|PPLA_CANLF/1-52         MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+#=GR sp|P61012|PPLA_CANLF/1-52 PP 9**************************************************8
+sp|P61013|PPLA_PIG/1-52           MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+#=GR sp|P61013|PPLA_PIG/1-52   PP 9**************************************************8
+sp|P61014|PPLA_MOUSE/1-52         MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+#=GR sp|P61014|PPLA_MOUSE/1-52 PP 9**************************************************8
+sp|P61015|PPLA_RABIT/1-52         MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+#=GR sp|P61015|PPLA_RABIT/1-52 PP 9**************************************************8
+sp|P61016|PPLA_RAT/1-52           MEKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLILICLLLICIIVMLL
+#=GR sp|P61016|PPLA_RAT/1-52   PP 9**************************************************8
+sp|A4IFH6|PPLA_BOVIN/1-52         MDKVQYLTRSAIRRASTIEMPQQARQNLQNLFINFCLISICLLLICIIVMLL
+#=GR sp|A4IFH6|PPLA_BOVIN/1-52 PP 9**************************************************8
+sp|P26678|PPLA_HUMAN/1-52         MEKVQYLTRSAIRRASTIEMPQQARQKLQNLFINFCLILICLLLICIIVMLL
+#=GR sp|P26678|PPLA_HUMAN/1-52 PP 9**************************************************8
+sp|P26677|PPLA_CHICK/1-52         MEKVQYITRSALRRASTLEVNPQARQRLQELFVNFCLILICLLLICIIVMLL
+#=GR sp|P26677|PPLA_CHICK/1-52 PP 9**************************************************8
+#=GC PP_cons                      9**************************************************8
+#=GC RF                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+//

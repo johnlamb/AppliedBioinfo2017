@@ -1,20 +1,29 @@
+import multiprocessing
+import numpy as np
+from snakemake.utils import report 
+from script.top_couplings import get_top_pairs
+
 configfile: "config.yaml"
 IDS, = glob_wildcards(config["inputdir"]+"/{id}.fa")
 
+maxThreads = multiprocessing.cpu_count()
+if config["threads"] > 0:
+    maxThreads = config["threads"]
 
+    
 rule all:
+    threads: 1
     input:
-        config["outputdir"] + "report.html"
-
-
+        config["outputdir"] + "/report.html"
 
 rule alignment:
     input:
-        config["inputdir"] + "{sample}.fa"
+        config["inputdir"] + "/{sample}.fa"
     output:
         config["outputdir"] + "/aligned/{sample}.sto"
+    threads: maxThreads
     shell:
-        "./run_aligner.sh {input} > {output}"
+        "script/run_aligner.sh {input} > {output}"
 
 
 
@@ -23,8 +32,9 @@ rule convert:
         config["outputdir"] + "/aligned/{sample}.sto"
     output:
         config["outputdir"] + "/converted/{sample}.aln"
+    threads: 1
     shell:
-        "./run_converter.sh {input} > {output}"
+        "script/run_converter.sh {input} > {output}"
 
 
 
@@ -33,38 +43,41 @@ rule predict:
         config["outputdir"] + "/converted/{sample}.aln"
     output:
         config["outputdir"] + "/predictions/{sample}.mat"
+    threads: 1
     shell:
-        "./run_predictor.sh {input} > {output}"
-       
+        "script/run_predictor.sh {input} > {output}"
 
 
-rule report:
+rule extract:
     input:
-        expand("{outdir}/predictions/{sample}.mat", outdir=config["outputdir"], sample=IDS)
+        config["outputdir"] + "/predictions/{sample}.mat"
     output:
-        config["outputdir"] + "/report.html"
+        config["outputdir"] + "/extract/{sample}.txt"
+    threads: 1
     run:
-        import numpy as np
-        from snakemake.utils import report 
-        from top_couplings import get_top_pairs
-
-        couplings=config["outputdir"] + "/top_couplings.txt"
         mat = np.loadtxt(input[0])
-        with open(couplings,"w") as coup:
+        with open(output[0],"w") as coup:
             # find top-scoring pairs with sufficient separation
             top = get_top_pairs(mat, 10, 7)
             coup.write("#i\tj\tconfidence\n")
             for i, j, coupling in zip(top[0], top[1], mat[top]):
                 coup.write("{0}\t{1}\t{2}\n".format(i, j, coupling))
-        
 
+
+rule report:
+    input:
+        expand(config["outputdir"] + "/extract/{sample}.txt", sample=IDS)
+    output:
+        config["outputdir"] + "/report.html"
+    threads: 1
+    run:
         report("""
-        Contact prediction for 1b9ua
+        Contact predictions
         ============================
 
         Alignment was done and can be found in the aligned/ directory.
         Convertion to .aln is found in the converted/ directory.
         The final prediction can be found in the predictions/ directory.
 
-        See below (Table T1_) for the top couplings (min distance 7).
-        """, output[0], T1=couplings, metadata="Author: John Lamb (john@biolamb.se), Stockholm University, Scilife Lab") 
+        See below (Table T1_)for the files with the top 10 couplings for each sample(min distance 7).
+        """, output[0], metadata="Author: John Lamb (john@biolamb.se), Stockholm University, Scilife Lab", T1=input) 

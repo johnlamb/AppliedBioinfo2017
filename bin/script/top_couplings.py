@@ -30,7 +30,6 @@ def main():
 
 def get_top_pairs(mat, num_contacts, min_separation):
     """Get the top-scoring contacts"""
-
     idx_delta = np.arange(mat.shape[1])[np.newaxis, :] -\
         np.arange(mat.shape[0])[:, np.newaxis]
     mask = idx_delta < min_separation

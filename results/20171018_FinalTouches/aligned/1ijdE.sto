@@ -1,0 +1,113 @@
+# STOCKHOLM 1.0
+#=GF ID 1ijdE-i5
+
+#=GS sp|P35091|LHA3_RHOAC/1-53 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rhodoblastus acidophilus PE=1 SV=1
+#=GS sp|P35105|LHA5_RHOPA/1-51 DE [subseq from] Light-harvesting protein B-800-850 alpha chain E OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009) GN=pucAE PE=1 SV=2
+#=GS sp|P35101|LHA1_RHOPA/1-51 DE [subseq from] Light-harvesting protein B-800-850 alpha chain A OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009) GN=pucAA PE=1 SV=1
+#=GS sp|P26789|LHA4_RHOAC/1-53 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rhodoblastus acidophilus PE=1 SV=1
+#=GS sp|P35090|LHA2_RHOAC/1-53 DE [subseq from] Light-harvesting protein B-800/820 alpha chain OS=Rhodoblastus acidophilus PE=1 SV=1
+#=GS sp|P35102|LHA2_RHOPA/1-52 DE [subseq from] Light-harvesting protein B-800-850 alpha chain B OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009) GN=pucAB PE=1 SV=1
+#=GS sp|P35089|LHA1_RHOAC/1-53 DE [subseq from] Light-harvesting protein B-800/820 alpha chain OS=Rhodoblastus acidophilus PE=1 SV=1
+#=GS sp|P35104|LHA4_RHOPA/1-51 DE [subseq from] Light-harvesting protein B-800-850 alpha chain D OS=Rhodopseudomonas palustris (strain ATCC BAA-98 / CGA009) GN=pucAD PE=1 SV=1
+#=GS sp|P35103|LHA3_RHOPL/1-53 DE [subseq from] Light-harvesting protein B-800-850 alpha chain C OS=Rhodopseudomonas palustris GN=pucAC PE=1 SV=1
+#=GS sp|P0C0Y0|LHA2_RHOSH/1-53 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rhodobacter sphaeroides GN=pucA PE=1 SV=1
+#=GS sp|Q3J144|LHA2_RHOS4/1-53 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158) GN=pucA PE=3 SV=1
+#=GS sp|P77799|LHA2_RUBGE/1-53 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rubrivivax gelatinosus GN=pucA PE=1 SV=1
+#=GS sp|P07367|LHA2_RHOCA/1-51 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rhodobacter capsulatus GN=pucA PE=1 SV=1
+#=GS sp|P80107|LHA3_HALHL/1-48 DE [subseq from] Light-harvesting protein B800/850/890 alpha-3 chain (Fragment) OS=Halorhodospira halophila (strain DSM 244 / SL1) PE=1 SV=1
+#=GS sp|P95655|LHA2_RHOSU/1-52 DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Rhodovulum sulfidophilum GN=pucA PE=1 SV=1
+#=GS sp|P04123|LHA_BLAVI/10-59 DE [subseq from] Light-harvesting protein B-1015 alpha chain OS=Blastochloris viridis GN=pufA PE=1 SV=3
+#=GS sp|P80259|LHA_AFIMA/2-44  DE [subseq from] Light-harvesting protein B-880 alpha chain OS=Afifella marina PE=1 SV=1
+#=GS sp|P80586|LHA_RHOTE/1-47  DE [subseq from] Light-harvesting polypeptide B-800/860 alpha chain OS=Rhodocyclus tenuis PE=1 SV=1
+#=GS sp|P02947|LHA_RHORU/2-43  DE [subseq from] Light-harvesting protein B-870 alpha chain OS=Rhodospirillum rubrum PE=1 SV=1
+#=GS sp|P35092|LHA6_RHOAC/3-46 DE [subseq from] Light-harvesting protein B-880 alpha chain OS=Rhodoblastus acidophilus PE=1 SV=1
+#=GS sp|P80589|LHA2_RHOTE/5-48 DE [subseq from] Light-harvesting polypeptide B-885 alpha-2 chain OS=Rhodocyclus tenuis PE=1 SV=1
+#=GS sp|P0C0X9|LHA1_RHOSH/6-45 DE [subseq from] Light-harvesting protein B-875 alpha chain OS=Rhodobacter sphaeroides GN=pufA PE=1 SV=1
+#=GS sp|Q3J1A4|LHA1_RHOS4/6-45 DE [subseq from] Light-harvesting protein B-875 alpha chain OS=Rhodobacter sphaeroides (strain ATCC 17023 / 2.4.1 / NCIB 8253 / DSM 158) GN=pufA PE=3 SV=1
+#=GS sp|P80588|LHA1_RHOTE/5-48 DE [subseq from] Light-harvesting polypeptide B-885 alpha-1 chain OS=Rhodocyclus tenuis PE=1 SV=1
+#=GS sp|P02948|LHA1_RHOCA/6-45 DE [subseq from] Light-harvesting protein B-870 alpha chain OS=Rhodobacter capsulatus GN=pufA PE=1 SV=1
+#=GS sp|P80102|LHA1_HALHR/2-44 DE [subseq from] Light-harvesting protein B800/830/1020 alpha-1 chain (Fragment) OS=Halorhodospira halochloris PE=1 SV=1
+#=GS sp|P26273|LHA_ROSDO/6-45  DE [subseq from] Light-harvesting protein B-870 alpha chain OS=Roseobacter denitrificans (strain ATCC 33942 / OCh 114) GN=pufA PE=3 SV=1
+#=GS sp|P80100|LHA1_HALHL/2-42 DE [subseq from] Light-harvesting protein B800/850/890 alpha-1 chain (Fragment) OS=Halorhodospira halophila (strain DSM 244 / SL1) PE=1 SV=1
+#=GS sp|P35093|LHA7_RHOAC/3-45 DE [subseq from] Light-harvesting protein B-880 alpha chain OS=Rhodoblastus acidophilus PE=1 SV=1
+#=GS sp|P80101|LHA2_HALHL/2-42 DE [subseq from] Light-harvesting protein B800/850/890 alpha-2 chain (Fragment) OS=Halorhodospira halophila (strain DSM 244 / SL1) PE=1 SV=1
+#=GS sp|P97253|LHA_PHAMO/8-56  DE [subseq from] Light-harvesting protein B-800/850 alpha chain OS=Phaeospirillum molischianum GN=A1 PE=1 SV=3
+#=GS sp|P0DJO0|LHA1_RUBGE/2-47 DE [subseq from] Light-harvesting protein B-870 alpha chain OS=Rubrivivax gelatinosus GN=pufA PE=1 SV=1
+#=GS sp|I0HUL6|LHA1_RUBGI/2-46 DE [subseq from] Light-harvesting protein B-870 alpha chain OS=Rubrivivax gelatinosus (strain NBRC 100245 / IL144) GN=pufA PE=3 SV=1
+#=GS sp|P80103|LHA2_HALHR/2-44 DE [subseq from] Light-harvesting protein B800/830/1020 alpha-2 chain OS=Halorhodospira halochloris PE=1 SV=1
+#=GS sp|P07503|LHA_CHLAA/8-44  DE [subseq from] Light-harvesting protein B-808/866 alpha chain OS=Chloroflexus aurantiacus (strain ATCC 29366 / DSM 635 / J-10-fl) GN=puf2A PE=1 SV=2
+
+1ijdE                             MNQGKIWTVVPPAFGLPLMLGAVAITALLVHAAVLTHT---TWYAAFLQGGVKKAA
+sp|P35091|LHA3_RHOAC/1-53         MNQGKIWTVVNPSVGLPLLLGSVTVIAILVHAAVLSHT---TWFPAYWQGGLKKAA
+#=GR sp|P35091|LHA3_RHOAC/1-53 PP 9*************************************...*************98
+sp|P35105|LHA5_RHOPA/1-51         MNQGRIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSNT---TWFSKYWNGKAAA--
+#=GR sp|P35105|LHA5_RHOPA/1-51 PP 9*************************************...*********9765..
+sp|P35101|LHA1_RHOPA/1-51         MNQARIWTVVKPTVGLPLLLGSVTVIAILVHFAVLSHT---TWFSKYWNGKAAA--
+#=GR sp|P35101|LHA1_RHOPA/1-51 PP 9*************************************...*********9765..
+sp|P26789|LHA4_RHOAC/1-53         MNQGKIWTVVNPAIGIPALLGSVTVIAILVHLAILSHT---TWFPAYWQGGVKKAA
+#=GR sp|P26789|LHA4_RHOAC/1-53 PP 9*************************************...*************98
+sp|P35090|LHA2_RHOAC/1-53         MNQGKIWTVVNPAVGLPLLLGSVAITALLVHLAVLTHT---TWFPAFTQGGLKKAA
+#=GR sp|P35090|LHA2_RHOAC/1-53 PP 9*************************************...*************98
+sp|P35102|LHA2_RHOPA/1-52         MNQGRIWTVVNPGVGLPLLLGSVTVIAILVHYAVLSNT---TWFPKYWNGATVAA-
+#=GR sp|P35102|LHA2_RHOPA/1-52 PP 9*************************************...**********9987.
+sp|P35089|LHA1_RHOAC/1-53         MNQGKIWTVVPPAFGLPLMLGAVAITALLVHAAVLTHT---TWYAAFLQGGVKKAA
+#=GR sp|P35089|LHA1_RHOAC/1-53 PP 9*************************************...*************98
+sp|P35104|LHA4_RHOPA/1-51         MNQGRIWTVVKPTVGLPLLLGSVAIMVFLVHFAVLTHT---TWVAKFMNGKAAA--
+#=GR sp|P35104|LHA4_RHOPA/1-51 PP 9*************************************...*********9765..
+sp|P35103|LHA3_RHOPL/1-53         MNQGRIWTVVSPTVGLPLLLGSVAAIAFAVHFAVLENT---SWVAAFMNGKSVAAA
+#=GR sp|P35103|LHA3_RHOPL/1-53 PP 9*************************************...************997
+sp|P0C0Y0|LHA2_RHOSH/1-53         MTNGKIWLVVKPTVGVPLFLSAAVIASVVIHAAVLTTT---TWLPAYYQGSAAVAA
+#=GR sp|P0C0Y0|LHA2_RHOSH/1-53 PP 9*************************************...************997
+sp|Q3J144|LHA2_RHOS4/1-53         MTNGKIWLVVKPTVGVPLFLSAAVIASVVIHAAVLTTT---TWLPAYYQGSAAVAA
+#=GR sp|Q3J144|LHA2_RHOS4/1-53 PP 9*************************************...************997
+sp|P77799|LHA2_RUBGE/1-53         MNQGKVWRVVKPTVGVPVYLGAVAVTALILHGGLLAKT---DWFGAYWNGGKKAAA
+#=GR sp|P77799|LHA2_RUBGE/1-53 PP 9*************************************...*************98
+sp|P07367|LHA2_RHOCA/1-51         MNNAKIWTVVKPSTGIPLILGAVAVAALIVHAGLLTNT---TWFANYWNGNPMA--
+#=GR sp|P07367|LHA2_RHOCA/1-51 PP 9*************************************...*********9876..
+sp|P80107|LHA3_HALHL/1-48         MNQARIWLVVKPSVGLPLLLGVVLLIALLVHGAILTNT---SWYPTYFEGN-----
+#=GR sp|P80107|LHA3_HALHL/1-48 PP 9*************************************...*********7.....
+sp|P95655|LHA2_RHOSU/1-52         MNNAKMWLVVKPTVGIPLFLVACAIASFLVHLMLVLTT---GWMGDYYSGSFEAA-
+#=GR sp|P95655|LHA2_RHOSU/1-52 PP 9*************************************...***********998.
+sp|P04123|LHA_BLAVI/10-59         ---WKLWLILDPRRVLTALFVYLTVIALLIHFGLLSTDR-LNWWE-FQRGLPKAA-
+#=GR sp|P04123|LHA_BLAVI/10-59 PP ...9***********************************.*****.*****9998.
+sp|P80259|LHA_AFIMA/2-44          ---WKVWLLFDPRRTLVALFTFLFVLALLIHFILLSTDR-FNWMQ----GA-----
+#=GR sp|P80259|LHA_AFIMA/2-44  PP ...8***********************************.****9....65.....
+sp|P80586|LHA_RHOTE/1-47          MTNGKIWLVVKPTVGLPIGMLFAALLAVLIHGLLFVDGRLKSWWSEF---------
+#=GR sp|P80586|LHA_RHOTE/1-47  PP 9********************************************98.........
+sp|P02947|LHA_RHORU/2-43          ---WRIWQLFDPRQALVGLATFLFVLALLIHFILLSTER-FNWLE----G------
+#=GR sp|P02947|LHA_RHORU/2-43  PP ...8***********************************.****9....5......
+sp|P35092|LHA6_RHOAC/3-46         ----KLWLLFDPRRALVALSAFLFVLALIIHFIALSTDR-FNWLE----GKPA---
+#=GR sp|P35092|LHA6_RHOAC/3-46 PP ....9**********************************.****9....6654...
+sp|P80589|LHA2_RHOTE/5-48         --QWKLWLVMDPRTVMIGTAAWLGVLALLIHFLLLGTER-FNWIDT---G------
+#=GR sp|P80589|LHA2_RHOTE/5-48 PP ..9************************************.****95...4......
+sp|P0C0X9|LHA1_RHOSH/6-45         ----KIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPS-YNWLE-----------
+#=GR sp|P0C0X9|LHA1_RHOSH/6-45 PP ....9**********************************.****9...........
+sp|Q3J1A4|LHA1_RHOS4/6-45         ----KIWMIFDPRRVFVAQGVFLFLLAVMIHLILLSTPS-YNWLE-----------
+#=GR sp|Q3J1A4|LHA1_RHOS4/6-45 PP ....9**********************************.****9...........
+sp|P80588|LHA1_RHOTE/5-48         --QWKLWLVMDPRTVMIGTAAWLGVLALLIHFLLLGTER-FNWIDT---G------
+#=GR sp|P80588|LHA1_RHOTE/5-48 PP ..9************************************.****95...4......
+sp|P02948|LHA1_RHOCA/6-45         ----KIWLVFDPRRVFVAQGVFLFLLAVLIHLILLSTPA-FNWLT-----------
+#=GR sp|P02948|LHA1_RHOCA/6-45 PP ....9**********************************.***97...........
+sp|P80102|LHA1_HALHR/2-44         ---WRIWKVFDPRRILIATAIWLIIIALTIHVILMTTER-FNWLE----GA-----
+#=GR sp|P80102|LHA1_HALHR/2-44 PP ...8***********************************.****9....55.....
+sp|P26273|LHA_ROSDO/6-45          ----KIWLIFDPRRVFVAQGVFLFLLAAMIHLVVLSSG--LNWFEA----------
+#=GR sp|P26273|LHA_ROSDO/6-45  PP ....9*********************************..****94..........
+sp|P80100|LHA1_HALHL/2-42         ---WRLWKLYDPRRVLIGIFSWLAVLALVIHFILLSTDR-FNWVG-----------
+#=GR sp|P80100|LHA1_HALHL/2-42 PP ...8***********************************.***98...........
+sp|P35093|LHA7_RHOAC/3-45         ----KLWLLFDPRRTLVALSAFLFVLGLIIHFISLSTDR-FNWLE----GKP----
+#=GR sp|P35093|LHA7_RHOAC/3-45 PP ....9**********************************.****9....665....
+sp|P80101|LHA2_HALHL/2-42         ---WRMWKILDYRRTVVLAHVGMAVLALLIHFILLSTES-FNWLE-----------
+#=GR sp|P80101|LHA2_HALHL/2-42 PP ...8***********************************.****9...........
+sp|P97253|LHA_PHAMO/8-56          ---YKIWLVINPSTWLPVIWIVATVVAIAVHAAVLAAPG-FNWIA---LGAAKSAA
+#=GR sp|P97253|LHA_PHAMO/8-56  PP ...69**********************************.*****...8***9997
+sp|P0DJO0|LHA1_RUBGE/2-47         ---WRIWRLFDPMRAMVAQAVFLLGLAVLIHLMLLGTNK-YNWLD----GAKKA--
+#=GR sp|P0DJO0|LHA1_RUBGE/2-47 PP ...8***********************************.****9....76665..
+sp|I0HUL6|LHA1_RUBGI/2-46         ---WRIWRLFDPMRAMVAQAVFLLGLAVLIHLMLLGTNK-YNWLD----GAKK---
+#=GR sp|I0HUL6|LHA1_RUBGI/2-46 PP ...8***********************************.****9....6555...
+sp|P80103|LHA2_HALHR/2-44         ---WKLWKFVDFRMTAVGFHIFFALIAFAVHFACISSER-FNWLE----GA-----
+#=GR sp|P80103|LHA2_HALHR/2-44 PP ...8***********************************.****9....54.....
+sp|P07503|LHA_CHLAA/8-44          ------------RTNIVIFTILGFVVALLIHFIVLSSPE-YNWLSN-AEGG-----
+#=GR sp|P07503|LHA_CHLAA/8-44  PP ............66789999999****************.****96.5555.....
+#=GC PP_cons                      9**9**********************************...***99***8888898
+#=GC RF                           xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx...xxxxxxxxxxxxxxx
+//

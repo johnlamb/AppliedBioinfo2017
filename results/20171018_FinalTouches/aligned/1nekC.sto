@@ -1,0 +1,176 @@
+# STOCKHOLM 1.0
+#=GF ID 1nekC-i5
+
+#=GS sp|P69054|DHSC_ECOLI/1-129    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Escherichia coli (strain K12) GN=sdhC PE=1 SV=1
+#=GS sp|P69055|DHSC_ECO57/1-129    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Escherichia coli O157:H7 GN=sdhC PE=3 SV=1
+#=GS sp|P63725|DHSC_SALTY/1-129    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Salmonella typhimurium (strain LT2 / SGSC1412 / ATCC 700720) GN=sdhC PE=3 SV=1
+#=GS sp|P63726|DHSC_SALTI/1-129    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Salmonella typhi GN=sdhC PE=3 SV=1
+#=GS sp|Q68XP1|DHSC_RICTY/6-123    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) GN=sdhC PE=3 SV=1
+#=GS sp|P41085|DHSC_RICPR/6-123    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Rickettsia prowazekii (strain Madrid E) GN=sdhC PE=3 SV=1
+#=GS sp|Q4UKC1|DHSC_RICFE/6-123    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) GN=sdhC PE=3 SV=1
+#=GS sp|Q92J99|DHSC_RICCN/6-123    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) GN=sdhC PE=3 SV=1
+#=GS sp|Q99643|C560_HUMAN/44-164   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Homo sapiens GN=SDHC PE=1 SV=1
+#=GS sp|Q1RHB5|DHSC_RICBR/6-124    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Rickettsia bellii (strain RML369-C) GN=sdhC PE=3 SV=1
+#=GS sp|P70097|C560_CRIGR/44-164   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Cricetulus griseus GN=SDHC PE=2 SV=1
+#=GS sp|D0VWV4|C560_PIG/44-164     DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Sus scrofa GN=SDHC PE=1 SV=2
+#=GS sp|O74882|SDH3_SCHPO/54-174   DE [subseq from] Succinate dehydrogenase cytochrome B subunit, mitochondrial OS=Schizosaccharomyces pombe (strain 972 / ATCC 24843) GN=sdh3 PE=3 SV=1
+#=GS sp|Q04487|SHH3_YEAST/69-191   DE [subseq from] Mitochondrial inner membrane protein SHH3 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SHH3 PE=1 SV=1
+#=GS sp|P41955|C560_CAEBR/46-170   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Caenorhabditis briggsae GN=mev-1 PE=2 SV=1
+#=GS sp|P35720|C560_BOVIN/44-164   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Bos taurus GN=SDHC PE=1 SV=2
+#=GS sp|P41956|C560_CAEEL/45-169   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Caenorhabditis elegans GN=mev-1 PE=2 SV=1
+#=GS sp|P80481|C560_RECAM/15-142   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit OS=Reclinomonas americana GN=SDH3 PE=3 SV=1
+#=GS sp|Q9CZB0|C560_MOUSE/44-163   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Mus musculus GN=Sdhc PE=1 SV=1
+#=GS sp|P35721|C560_MARPO/1-126    DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit OS=Marchantia polymorpha GN=SDH3 PE=3 SV=1
+#=GS sp|P80478|C560_PORPU/3-121    DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit OS=Porphyra purpurea GN=SDH3 PE=3 SV=1
+#=GS sp|Q59659|DHSC_PARDE/7-126    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Paracoccus denitrificans GN=sdhC PE=3 SV=1
+#=GS sp|P33421|SDH3_YEAST/69-193   DE [subseq from] Succinate dehydrogenase [ubiquinone] cytochrome b subunit, mitochondrial OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=SDH3 PE=1 SV=1
+#=GS sp|P51055|DHSC_COXBU/1-125    DE [subseq from] Succinate dehydrogenase cytochrome b556 subunit OS=Coxiella burnetii (strain RSA 493 / Nine Mile phase I) GN=sdhC PE=3 SV=1
+#=GS sp|P48935|C560_CYACA/3-127    DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit OS=Cyanidium caldarium GN=SDH3 PE=3 SV=1
+#=GS sp|P48934|C560_CHOCR/8-125    DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit OS=Chondrus crispus GN=SDH3 PE=3 SV=1
+#=GS sp|Q8T2T5|C560_DICDI/71-187   DE [subseq from] Succinate dehydrogenase cytochrome b560 subunit, mitochondrial OS=Dictyostelium discoideum GN=sdhC PE=3 SV=1
+#=GS sp|Q9ZMN9|FRDC_HELPJ/28-105   DE [subseq from] Fumarate reductase cytochrome b subunit OS=Helicobacter pylori (strain J99 / ATCC 700824) GN=frdC PE=3 SV=1
+#=GS sp|Q9ZMN9|FRDC_HELPJ/124-221  DE [subseq from] Fumarate reductase cytochrome b subunit OS=Helicobacter pylori (strain J99 / ATCC 700824) GN=frdC PE=3 SV=1
+#=GS sp|O06912|FRDC_HELPY/28-105   DE [subseq from] Fumarate reductase cytochrome b subunit OS=Helicobacter pylori (strain ATCC 700392 / 26695) GN=frdC PE=3 SV=2
+#=GS sp|O06912|FRDC_HELPY/124-221  DE [subseq from] Fumarate reductase cytochrome b subunit OS=Helicobacter pylori (strain ATCC 700392 / 26695) GN=frdC PE=3 SV=2
+#=GS sp|O53368|SDHC_MYCTU/25-140   DE [subseq from] Succinate dehydrogenase 2 membrane subunit SdhC OS=Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv) GN=sdhC PE=1 SV=2
+#=GS sp|P17413|FRDC_WOLSU/21-109   DE [subseq from] Fumarate reductase cytochrome b subunit OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) GN=frdC PE=1 SV=1
+#=GS sp|P17413|FRDC_WOLSU/123-226  DE [subseq from] Fumarate reductase cytochrome b subunit OS=Wolinella succinogenes (strain ATCC 29543 / DSM 1740 / LMG 7466 / NCTC 11488 / FDC 602W) GN=frdC PE=1 SV=1
+#=GS sp|P08064|DHSC_BACSU/12-76    DE [subseq from] Succinate dehydrogenase cytochrome b558 subunit OS=Bacillus subtilis (strain 168) GN=sdhC PE=1 SV=2
+#=GS sp|P08064|DHSC_BACSU/91-193   DE [subseq from] Succinate dehydrogenase cytochrome b558 subunit OS=Bacillus subtilis (strain 168) GN=sdhC PE=1 SV=2
+#=GS sp|Q68XP0|DHSD_RICTY/19-121   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Rickettsia typhi (strain ATCC VR-144 / Wilmington) GN=sdhD PE=3 SV=1
+#=GS sp|P41086|DHSD_RICPR/20-121   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Rickettsia prowazekii (strain Madrid E) GN=sdhD PE=3 SV=1
+#=GS sp|Q4UKC3|DHSD_RICFE/15-116   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Rickettsia felis (strain ATCC VR-1525 / URRWXCal2) GN=sdhD PE=3 SV=1
+#=GS sp|P72109|DHSD_NATPH/18-122   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Natronomonas pharaonis GN=sdhD PE=3 SV=1
+#=GS sp|Q92J98|DHSD_RICCN/20-122   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Rickettsia conorii (strain ATCC VR-613 / Malish 7) GN=sdhD PE=3 SV=1
+#=GS sp|Q9HQ63|DHSD_HALSA/18-122   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Halobacterium salinarum (strain ATCC 700922 / JCM 11081 / NRC-1) GN=sdhD PE=3 SV=2
+#=GS sp|P0DKI0|SDH31_ARATH/121-211 DE [subseq from] Succinate dehydrogenase subunit 3-1, mitochondrial OS=Arabidopsis thaliana GN=SDH3-1 PE=1 SV=1
+#=GS sp|P0DKI1|SDH32_ARATH/121-211 DE [subseq from] Succinate dehydrogenase subunit 3-2, mitochondrial OS=Arabidopsis thaliana GN=SDH3-2 PE=1 SV=1
+#=GS sp|Q08717|DHSD_THEAC/10-116   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Thermoplasma acidophilum (strain ATCC 25905 / DSM 1728 / JCM 9062 / NBRC 15155 / AMRC-C165) GN=sdhD PE=3 SV=1
+#=GS sp|Q1RHB6|DHSD_RICBR/19-121   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Rickettsia bellii (strain RML369-C) GN=sdhD PE=3 SV=1
+#=GS sp|O29573|DHSD_ARCFU/11-111   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Archaeoglobus fulgidus (strain ATCC 49558 / VC-16 / DSM 4304 / JCM 9628 / NBRC 100126) GN=sdhD PE=3 SV=1
+#=GS sp|P0AC44|DHSD_ECOLI/16-113   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Escherichia coli (strain K12) GN=sdhD PE=1 SV=1
+#=GS sp|P0AC45|DHSD_ECOL6/16-113   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Escherichia coli O6:H1 (strain CFT073 / ATCC 700928 / UPEC) GN=sdhD PE=3 SV=1
+#=GS sp|P0AC46|DHSD_SHIFL/16-113   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Shigella flexneri GN=sdhD PE=3 SV=1
+#=GS sp|Q8X9A9|DHSD_ECO57/16-113   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Escherichia coli O157:H7 GN=sdhD PE=3 SV=1
+#=GS sp|P51057|DHSD_COXBU/15-108   DE [subseq from] Succinate dehydrogenase hydrophobic membrane anchor subunit OS=Coxiella burnetii (strain RSA 493 / Nine Mile phase I) GN=sdhD PE=1 SV=2
+#=GS sp|P80482|DHSD_RECAM/6-109    DE [subseq from] Succinate dehydrogenase membrane anchor subunit OS=Reclinomonas americana GN=SDH4 PE=3 SV=1
+#=GS sp|Q6ZH92|SDH31_ORYSJ/80-125  DE [subseq from] Succinate dehydrogenase subunit 3-1, mitochondrial OS=Oryza sativa subsp. japonica GN=SDH3-1 PE=1 SV=1
+#=GS sp|Q84VK7|SDH32_ORYSJ/80-125  DE [subseq from] Succinate dehydrogenase subunit 3-2, mitochondrial OS=Oryza sativa subsp. japonica GN=SDH3-2 PE=1 SV=2
+#=GS sp|Q12106|MCP1_YEAST/173-270  DE [subseq from] MDM10-complementing protein 1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) GN=MCP1 PE=1 SV=1
+
+1nekC                                 MIRNVKKQRPVNLDLQTIRFPITAIASILHRVSGVI-----TFV-AVGILLWLLGTSLSS---PEGF-EQ-----ASAI-----M--GS-FFVK---------FI--MWGILTALAYHVVVGIRHMM--MDFGYL-E-----ETFEAG--KR-SAKISFVITVVLSLLAGVLVW
+sp|P69054|DHSC_ECOLI/1-129            MIRNVKKQRPVNLDLQTIRFPITAIASILHRVSGVI-----TFV-AVGILLWLLGTSLSS---PEGF-EQ-----ASAI-----M--GS-FFVK---------FI--MWGILTALAYHVVVGIRHMM--MDFGYL-E-----ETFEAG--KR-SAKISFVITVVLSLLAGVLVW
+#=GR sp|P69054|DHSC_ECOLI/1-129    PP 799*********************************.....***.***************...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*********************
+sp|P69055|DHSC_ECO57/1-129            MIRNVKKQRPVNLDLQTIRFPITAIASILHRVSGVI-----TFV-AVGILLWLLGTSLSS---PEGF-EQ-----ASAI-----M--GS-FFVK---------FI--MWGILTALAYHVVVGIRHMM--MDFGYL-E-----ETFEAG--KR-SAKISFVITVVLSLLAGVLVW
+#=GR sp|P69055|DHSC_ECO57/1-129    PP 799*********************************.....***.***************...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*********************
+sp|P63725|DHSC_SALTY/1-129            MIRNVKKQRPVNLDLQTIRFPITAIASILHRVSGVI-----TFI-AVGILLWLLGTSLSS---PEGF-QQ-----AADI-----M--DG-FIVK---------FI--MWGILTALAYHVIVGIRHML--MDFGYL-E-----ETFEAG--QR-SAKISFVITVVLSLLAGVLVW
+#=GR sp|P63725|DHSC_SALTY/1-129    PP 799*********************************.....***.***************...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*********************
+sp|P63726|DHSC_SALTI/1-129            MIRNVKKQRPVNLDLQTIRFPITAIASILHRVSGVI-----TFI-AVGILLWLLGTSLSS---PEGF-QQ-----AADI-----M--DG-FIVK---------FI--MWGILTALAYHVIVGIRHML--MDFGYL-E-----ETFEAG--QR-SAKISFVITVVLSLLAGVLVW
+#=GR sp|P63726|DHSC_SALTI/1-129    PP 799*********************************.....***.***************...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*********************
+sp|Q68XP1|DHSC_RICTY/6-123            --QEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVA-----LFF-VVSILVWWLILSKYD---NNYL-QL--------------A--RC-CIIK---------IC--LVAFSYAWCYHLCNGIRHLF--WDIGYG-F-----SI-------R-AVNITGWCVVVCSILLTMLLW
+#=GR sp|Q68XP1|DHSC_RICTY/6-123    PP ..6899******************************.....***.*********977777...7776.65..............5..9*.****.........**..********************..******.*.....**.......7.777777777777777777777
+sp|P41085|DHSC_RICPR/6-123            --QEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVA-----LFF-VVSILVWWLILSKYD---NNYL-QL--------------A--SC-CIIK---------IC--LVAFSYSWCYHLCNGIRHLF--WDIGYG-F-----SI-------K-AVNITGWCVVVCSILLTMLLW
+#=GR sp|P41085|DHSC_RICPR/6-123    PP ..6899******************************.....***.*********987777...7776.65..............5..9*.****.........**..********************..******.*.....**.......7.777777777777777777888
+sp|Q4UKC1|DHSC_RICFE/6-123            --QEIYNKRPTSPHLSIYKLQISSTLSILHRMTGVA-----LFF-AVSILAWWLILSKYD---NNYL-Q---------F-----A--NC-CIIK---------IC--LVAVSYAWFYHLCNGIRHLF--WDIGYG-F-----SI-------K-AVNITGWCVVVCSILLTMLLW
+#=GR sp|Q4UKC1|DHSC_RICFE/6-123    PP ..5799******************************.....***.*********877777...7666.6.........6.....6..9*.****.........**..********************..******.*.....**.......7.777777777777777777888
+sp|Q92J99|DHSC_RICCN/6-123            --QEIYNKRPTSPHLTIYKPQISSTLSILYRMTGVA-----LFF-AVSILVWWLILSKYD---NNYL-QL--------------A--EC-CIIK---------IC--LVAVSYAWFYHLCNGIRHLF--WDIGYG-F-----SI-------K-LVNITGWCVVVGSVLLTVLLW
+#=GR sp|Q92J99|DHSC_RICCN/6-123    PP ..5799******************************.....***.*********977777...7776.65..............5..9*.****.........**..********************..******.*.....**.......8.999999999999999999999
+sp|Q99643|C560_HUMAN/44-164           --KNIGSNRPLSPHITIYSWSLPMAMSICHRGTGIA-----L---SAGVSLFGMS-ALLL---PGNF-ESYLELVKSLC-----L--GP-ALIH---------TA--KFALVFPLMYHTWNGIRHLM--WDLGKG-L-----KI-PQL--YQ-SGVVVLVLTVLSSM-------
+#=GR sp|Q99643|C560_HUMAN/44-164   PP ..6899******************************.....*...999999***8.999*...****.**555544445.....7..77.8888.........**..********************..******.*.....**.***..**.**********9986.......
+sp|Q1RHB5|DHSC_RICBR/6-124            --QEIYNKRPTSPHLTIYKPQISSTLSILHRMTGVA-----LFF-AVSILAWWFILSKFD---SNYI-KL-----AN----------CC-CIIK---------IC--LILTSFAWFYHLCNGIRHLF--WDIGLG-F-----SI-------K-AVNLTGWSVVICSVLFTILLW
+#=GR sp|Q1RHB5|DHSC_RICBR/6-124    PP ..5799******************************.....***.*********988888...7777.76.....64..........48.9***.........**..********************..******.*.....**.......8.899999999999999999999
+sp|P70097|C560_CRIGR/44-164           --KNTSSKRPVSPHLTIYRWSLPMVMSICHRGTGVA-----L---SGGVSLFGLS-ALLL---PGNF-ES-----YLMFIKSLCL--GP-ALIH---------SA--KFVLVFPLMYHSLNGIRHLI--WDLGKG-L-----SI-SQV--YQ-SGVAVLMLAVLSSV-------
+#=GR sp|P70097|C560_CRIGR/44-164   PP ..7899******************************.....*...9********8.99**...****.**.....6666333337..77.8888.........99..********************..******.*.....**.***..**.**********9997.......
+sp|D0VWV4|C560_PIG/44-164             --KNLGSNRPLSPHITIYRWSLPMAMSICHRGTGIA-----L---SAGVSLFGLS-ALLL---PGNF-ESHLELVKSLC-----L--GP-TLIY---------TA--KFGIVFPLMYHTWNGIRHLI--WDLGKG-L-----TI-PQL--TQ-SGVVVLILTVLSSV-------
+#=GR sp|D0VWV4|C560_PIG/44-164     PP ..67889*****************************.....*...999999***8.8999...****.**555555555.....6..77.7777.........99..********************..******.*.....**.***..**.***********997.......
+sp|O74882|SDH3_SCHPO/54-174           ----QRVHRPNSPHLTIYEPQLTWYLSSLHRITGCVVAGTLYAF-AMGYLVAPLAGYSLD---TATI-SG-----LIQQ-----V--PT-WIKV---------PA--KFVISYPLTFHIFNGIRHLI--WDTTKE-L-----SL-KGV--YR-TGYAVLALSVLTS--------
+#=GR sp|O74882|SDH3_SCHPO/54-174   PP ....7889****************************9999999*.***************...****.**.....****.....*..**.****.........**..********************..******.*.....**.***..**.**********987........
+sp|Q04487|SHH3_YEAST/69-191           ----QRKKRPISPHLTVYEPEMSWYLSSLHRISGVLL---ALGF-YAFTITLGVTTIMGM---DTTF-QD-----LNKW-----Y--HE-KMPKWS-----QWVA--KGSAAYLFAFHFGNGIRHLI--WDMGYE-L-----TN-RGV--IK-TGSIVLAGTLVLGT-------
+#=GR sp|Q04487|SHH3_YEAST/69-191   PP ....799****************************96...6677.888888888888889...****.**.....****.....*..**.****99.....9899..********************..******.*.....**.***..**.************97.......
+sp|P41955|C560_CAEBR/46-170           --KQRDMKRPIAPHLTIYQPQLTWMLSGFHRISGCV-----M---AGTLLVGGLGFAVLP---LDFT-TF-----VEYIRG-WNL--PC-AVTA---------VF--KYIIAFPIIFHTLNGIRFLG--FDLAKG-V-----DNIGQV--YK-SGWLVFGVSAVIAL-AIV---
+#=GR sp|P41955|C560_CAEBR/46-170   PP ..67899*****************************.....*...999999999999999...8877.77.....666666.779..**.****.........**..********************..******.*.....******..**.************97.443...
+sp|P35720|C560_BOVIN/44-164           --KNTTLNRPLSPHISIYGWSLPMAMSICHRGTGIA-----L---SAGVSLFGLS-ALLV---PGSF-ESHLEFVKSLC-----L--GP-ALIH---------TA--KFALVFPLMYHTWNGIRHLM--WDLGKG-L-----TI-SQL--HQ-SGVAVLVLTVLSSV-------
+#=GR sp|P35720|C560_BOVIN/44-164   PP ..68899*****************************.....*...999999***8.8999...****.**444444444.....6..77.8888.........99..********************..******.*.....**.***..**.***********997.......
+sp|P41956|C560_CAEEL/45-169           -LKQRSKNRPIAPHLTVYQPQLTWMLSGFHRISGCV-----M---AGTLLVGGIGFAVLP---FDFT-AFVD-FIRSWN-----L--PC-AVTA---------VF--KYIIAFPIIFHTLNGIRFLG--FDLAKG-V-----NNVGQI--YK-SGYLVSGLSAILAL-AI----
+#=GR sp|P41956|C560_CAEEL/45-169   PP .68999******************************.....*...999999999999999...8877.7745.545566.....9..**.****.........**..********************..******.*.....******..**.************97.55....
+sp|P80481|C560_RECAM/15-142           --INMNINRPISPHLTIYKLQITNTLSIFHRITGGVL--ALTLC-FFILILKMLNFHLSS---YAFY-SI-----AYTLN---QY--SG-FLFI---------AI--SFFLLLFIFYHLFAGLRHLV--WDAGYA-L-----EI-ENV--YL-TGYIMLGLAFLFTLIAWI---
+#=GR sp|P80481|C560_RECAM/15-142   PP ..699*****************************996..64445.777778888999999...9999.98.....66555...59..**.****.........**..********************..******.*.....**.***..**.**************9997...
+sp|Q9CZB0|C560_MOUSE/44-163           --KNTSSNRPLSPHLTIYKWSLPMALSVCHRGSGIA-----L---SGGVSLFGLS-ALLL---PGNF-ES-----YLMF-----V--KS-LCLGPT----LIYSA--KFVLVFPLMYHSLNGIRHLL--WDLGKG-L-----AI-PQV--WL-SGVAVVVLAVLSS--------
+#=GR sp|Q9CZB0|C560_MOUSE/44-163   PP ..7899******************************.....*...*********8.9***...****.**.....8888.....6..66.544433....33389..********************..******.*.....**.***..**.********99876........
+sp|P35721|C560_MARPO/1-126            ----MKINRPLSPHLTIYKPQLTSTFSIFHRISGAFL---ATMV-LFSILFFKIGDLSLT---FYHF-YQY--FFFLTF-----Y--LN-WFII---------SL--VNFTLLALCYHMSNGVRHLL--WDLGFF-L-----EL-SKV--YT-SGIIMLFCAAFLALLNII---
+#=GR sp|P35721|C560_MARPO/1-126    PP ....689***************************995...5455.677777777777777...7777.775..557888.....9..**.****.........**..********************..******.*.....**.***..**.**************9886...
+sp|P80478|C560_PORPU/3-121            -----NINRPISPHLTIYNTQKSSLFSIWHRISGVA-----MFT-LIASPPLFLKLATFS---YKSF-NI-----LDLM-----LNNSS-LILP---------WF--IVIISVIFLYHIINGIRHFL--WDSVVN-V-----NTESII--KD-SNTLLALVFLIMLF-------
+#=GR sp|P80478|C560_PORPU/3-121    PP .....68*****************************.....***.***************...****.**.....9999.....83355.6666.........**..********************..******.*.....**9999..99.99999998888765.......
+sp|Q59659|DHSC_PARDE/7-126            ------GNRPLSPHLQVYRLPLAAITSIMTRITGHA-----LVA-GIVLITWWLVAAVTS---PGAF-AC-----ADWV-----V--RS-WLGF---------II--LTGSMWALWYHLLAGLRHLF--YDAGYG-L-----EI-EQA--HK-SSQALIAGSVVLAVLTLIV--
+#=GR sp|Q59659|DHSC_PARDE/7-126    PP ......69****************************.....***.***************...****.**.....****.....*..**.****.........**..********************..******.*.....**.***..**.*************998775..
+sp|P33421|SDH3_YEAST/69-193           --NKQRAKRPISPHLTIYQPQLTWYLSSLHRISLVLM---GLGF-YLFTILFGVSGLLGL---GLTT-EK-----VSNW-----Y--HQ-KFSKIT-----EWSI--KGSFAYLFAIHYGGAIRHLI--WDTAKE-L-----TL-KGV--YR-TGYALIGFTAVLGT-------
+#=GR sp|P33421|SDH3_YEAST/69-193   PP ..6899******************************8...8889.***************...****.**.....****.....*..**.****55.....5555..8899****************..******.*.....**.***..**.************97.......
+sp|P51055|DHSC_COXBU/1-125            ----MNAKRPVNLDLTKFHFPPMAILSIGHRISGFV-----LFL-CMPLMFYLLHRATAS---AESF-YH-----LHQL----LL--HN-GWIK---------LA--VWIMLSATLFHLFAGIRHLA--MDLGFW-E-----SV-PEG--RI-SAYTVFVVSFIAIVLAGVWIW
+#=GR sp|P51055|DHSC_COXBU/1-125    PP ....689*****************************.....***.***************...****.**.....*999....67..9*.****.........**..********************..******.*.....**.***..**.********************9
+sp|P48935|C560_CYACA/3-127            -----YKNRPLSPYVTIYSSQWTSISSIFHRLSGLY-----LVF-FLFVLFCSIKF-LFC---FSTF-WF-----VYKF-----V--KT-CFFFILS---FFIVF--IVFSMYSLFYHFFIGLRHLV--WDEVIL-M-----ED-NFV--TM-STKLSLSLSLVLVLINCL---
+#=GR sp|P48935|C560_CYACA/3-127    PP .....79*****************************.....***.**********7.***...****.**.....****.....*..**.**99888...88888..9999****************..******.*.....**.***..**.**************9875...
+sp|P48934|C560_CHOCR/8-125            ------SNRPIAPHLLVYTPQLSSLFSIWHRISGVG-----LAF-FFTTFLIFIRIILSS---NFAC-NL-----LTLIS--FEI--SQ-WIII---------YF--NLFILLFLFYHLFNGTRHII--WDFGFL-L-----DIKYLS--KF-SLFLLVSLSLILI--------
+#=GR sp|P48934|C560_CHOCR/8-125    PP ......79****************************.....***.***************...****.*9.....66666..579..**.****.........**..********************..******.*.....**7777..77.7777777777665........
+sp|Q8T2T5|C560_DICDI/71-187           --------QPTSPHLTIYKFPLPAVMSIMHRATGIC-----LAL-GITGLAGVTLFAPHD---AIHY-IQ-----LLHT-----Q--YP-ALVY---------PA--KFAVALPLTYHFCTGVRHII--WDETVKGL-----SI-SQI--ES-SGKVLLAVVAVLSTIFT----
+#=GR sp|Q8T2T5|C560_DICDI/71-187   PP ........7***************************.....*99.999999999999999...9999.99.....8888.....8..88.8999.........**..********************..**876626.....66.***..**.*************9876....
+sp|Q9ZMN9|FRDC_HELPJ/28-105           ---------------------------FLQSATGLI-----LAL-FMIAHMFLVSSILIS---DEAM-YK-----VAKF-----F--EG-SLFLKAGEPAIVSVV--AAGVILILVAHAFLALRKFP--INY------------------------------------------
+#=GR sp|Q9ZMN9|FRDC_HELPJ/28-105   PP ...........................79*******.....***.***************...****.**.....****.....*..99.99998****999999..******************99..776..........................................
+sp|Q9ZMN9|FRDC_HELPJ/124-221          ------------------------SLWFIQALTGFA-----MFF-LASIHLFVMLTEPES---IGPH-GS-----SYRF-----V--TQ-NFW----------LL--YIFLLFAVELHGSIGLYRLAIKWGWFKN-V-----SI-QGL--RK-IKWAMSVFFIVLGL-------
+#=GR sp|Q9ZMN9|FRDC_HELPJ/124-221  PP ........................69**********.....***.***************...****.**.....****.....*..**.***..........9*..********************44555555.7.....88.***..**.************98.......
+sp|O06912|FRDC_HELPY/28-105           ---------------------------FLQSATGLI-----LAL-FMIAHMFLVSSILIS---DEAM-YK-----VAKF-----F--EG-SLFLKAGEPAIVSVV--AAGIILILVAHAFLALRKFP--INY------------------------------------------
+#=GR sp|O06912|FRDC_HELPY/28-105   PP ...........................79*******.....***.***************...****.**.....****.....*..99.99998****999999..******************99..776..........................................
+sp|O06912|FRDC_HELPY/124-221          ------------------------SLWFIQALTGFA-----MFF-LASIHLFVMLTEPES---IGPH-GS-----SYRF-----V--TQ-NFW----------LL--YIFLLFAVELHGSIGLYRLAIKWGWFKN-V-----SI-QGL--RK-VKWAMSVFFIVLGL-------
+#=GR sp|O06912|FRDC_HELPY/124-221  PP ........................69**********.....***.***************...****.**.....****.....*..**.***..........9*..********************44555555.7.....88.***..**.************98.......
+sp|O53368|SDHC_MYCTU/25-140           ---------------TLYRGDPGMWSWVCHRISGAT-----IFF-FLFVHVLDAAMLRVS---PQTY-NA-----VLAT-----Y--KT-PIVG---------LM--EYGLVAAVLFHALNGIRVIL--IDFWSE-G-----PRYQRLMLWI-IGSVFLLLMVPAGVVVGIHMW
+#=GR sp|O53368|SDHC_MYCTU/25-140   PP ...............89*******************.....***.***************...****.**.....****.....*..**.****.........**..********************..******.8.....66554434**.*********************
+sp|P17413|FRDC_WOLSU/21-109           --------------------RMPAKLDWWQSATGLF-----LGL-FMIGHMFFVSTILLG---DNVM-LW-----VTKK-----F--EL-DFIFEGGKPIVVSFL--AAFVFAVFIAHAFLAMRKFP--INYRQY-L-------------------------------------
+#=GR sp|P17413|FRDC_WOLSU/21-109   PP ....................56777889********.....***.***************...9999.88.....8888.....7..76.666667777776566..7777788899*********9..888665.5.....................................
+sp|P17413|FRDC_WOLSU/123-226          -----------------------TTLWWIQAMTGFA-----MFF-LGSVHLYIMMTQPQT---IGPV-SS-----SFRM-----V--SE-WMW----------PL--YLVLLFAVELHGSVGLYRLA--VKWGWF-DGETPDKTRANL--KK-LKTLMSAFLIVLGLL------
+#=GR sp|P17413|FRDC_WOLSU/123-226  PP .......................69***********.....***.***************...****.**.....****.....*..**.***..........**..********************..****99.555666999***..**.*************97......
+sp|P08064|DHSC_BACSU/12-76            ----------------------------LHSLLGVI----PVGI-FLIQHLVVNQFAARG---AEAF-NS-----AAHF-----M--DS-LPFR---------YALEIFIIFLPLIYHAVYGVY--------------------------------------------------
+#=GR sp|P08064|DHSC_BACSU/12-76    PP ............................89******....999*.***************...****.**.....****.....*..**.*999.........88789**************98..................................................
+sp|P08064|DHSC_BACSU/91-193           ---------------------MRNWLFVLQRVTGII-----TLI-FVSWHVWETRIAAQMG-AEVNF-DM-----MANI-----L--SS-PAML---------GF--YIVGVLSTIFHFSNGLWSFA--VTWGIT-V-----TP-RSQ--RI-STYVTLIIFVALSYV------
+#=GR sp|P08064|DHSC_BACSU/91-193   PP .....................789************.....***.************9995.56666.77.....****.....*..**.****.........**..********************..******.*.....**.999..**.************985......
+sp|Q68XP0|DHSD_RICTY/19-121           --------------------KSGAHHWLLQRVTGVV-----LAL-CSFWLIYFMF--TNK---NNDI-NI-----IMWE-----F--KK-PFNI---------VI--LLITVTISLYHSVLGMRVVI--EDYINC-H-----KLRNTL--II-IVKLFCILTIVAFIVAI----
+#=GR sp|Q68XP0|DHSD_RICTY/19-121   PP ....................56899***********.....***.*********6..8**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9876....
+sp|P41086|DHSD_RICPR/20-121           ---------------------SGSHHWLLQRVTGVI-----LAL-CSFWLIYFMF--TNK---NNDI-NI-----IMWE-----F--KK-PFNI---------VI--LLITVTISLYHSVLGMRVVI--EDYINC-H-----KLRNTL--II-IVKLFCILTIVSFVVAI----
+#=GR sp|P41086|DHSD_RICPR/20-121   PP .....................6799***********.....***.*********6..8**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9876....
+sp|Q4UKC3|DHSD_RICFE/15-116           ---------------------SGSHHWLLQRVTGII-----LAL-CSIWLIYFTL--TNK---NNDI-NI-----IMWE-----L--KK-PFNV---------VA--LLITVAISLYHAMLGMRVVI--EDYVSC-H-----KLRNTL--IV-IVQLFCIVTIAAFVVAM----
+#=GR sp|Q4UKC3|DHSD_RICFE/15-116   PP .....................689************.....***.********95..9**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9876....
+sp|P72109|DHSD_NATPH/18-122           ------------------EFSAGMWAWIFHKFTGWV-----LIG-YLFTHVAVLSTATVD---AATY-TQ-----TLQG-----L--ES-LLVV--------RFL--EVGLLAVAVFHILNGIRLLF--VDLGVG-L-----EAQDKA--FY-AALIVTAAITVASI-------
+#=GR sp|P72109|DHSD_NATPH/18-122   PP ..................68999*************.....***.***************...****.**.....****.....*..**.8887........577..********************..******.*.....**9999..99.99999999999886.......
+sp|Q92J98|DHSD_RICCN/20-122           ---------------------SGSHHWLLQRVTGII-----LAL-CSVWLIYFTL--TNK---NNDI-NI-----IMLW----EL--KK-PFNV---------VA--LLITVVISLYHAMLGMRVVI--EDYISY-H-----KLRNTL--II-IVQLFCIVTIVAFVVAL----
+#=GR sp|Q92J98|DHSD_RICCN/20-122   PP .....................689************.....***.********95..899...9999.99.....7766....6*..**.****.........**..********************..******.*.....******..**.*************9875....
+sp|Q9HQ63|DHSD_HALSA/18-122           ------------------EFSAGMWAWVFHKFTGWV-----LVG-YLFTHISVLSTSLQG---AQVY-NS-----TLSG-----L--ESLAIVR---------LL--EVGLLAVAVFHILNGIRLLF--VDLGVG-L-----EAQDKS--FY-ASLVLTGVIVVASV-------
+#=GR sp|Q9HQ63|DHSD_HALSA/18-122   PP ..................6899**************.....***.***************...****.**.....****.....9..9945666.........99..********************..******.*.....******..99.99999999999997.......
+sp|P0DKI0|SDH31_ARATH/121-211         ----IKSFRPLSPHLSVYQPQMNSMLSIFNRISGVYL--TGVTF-AGYLLYLKMGMICLT---YPSF-YQ-----VLYH-----T--QQ-QLP----------VI--TSVTALAAIYHTIKSTHSLL-----------------------------------------------
+#=GR sp|P0DKI0|SDH31_ARATH/121-211 PP ....7899****************************8..88889.***************...****.**.....****.....*..**.***..........9*..**************999987...............................................
+sp|P0DKI1|SDH32_ARATH/121-211         ----IKSFRPLSPHLSVYQPQMNSMLSIFNRISGVYL--TGVTF-AGYLLYLKMGMICLT---YPSF-YQ-----VLYH-----T--QQ-QLP----------VI--TSVTALAAIYHTIKSTHSLL-----------------------------------------------
+#=GR sp|P0DKI1|SDH32_ARATH/121-211 PP ....7899****************************8..88889.***************...****.**.....****.....*..**.***..........9*..**************999987...............................................
+sp|Q08717|DHSD_THEAC/10-116           ----------------------GSLNRFAQAVTGLF-----LLF-FLGVHLYVAHIDFGH---PVAFFSS-----VINQ-----L--HN-PWWL---------AF--FLIFVYIITYHGINGLNHIV--ADTSIS-E-----KAKRNI--GI-ALMVIYVITIIYGTILALLV-
+#=GR sp|Q08717|DHSD_THEAC/10-116   PP ......................56666789******.....***.***************...8765166.....****.....*..**.****.........**..********************..******.*.....******..**.**************988765.
+sp|Q1RHB6|DHSD_RICBR/19-121           --------------------KSGSHHWLLQRITAII-----LVL-CSLWLLYFTL--ANK---NSDV-NI-----IIWE-----L--KR-PINL---------IP--LLIAVITSLYHAMLGMQVVI--EDYISC-N-----KLRNTL--II-AVKLFSILTIVAFIVAV----
+#=GR sp|Q1RHB6|DHSD_RICBR/19-121   PP ....................5689************.....***.********95..899...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9875....
+sp|O29573|DHSD_ARCFU/11-111           ---------------------LEPLAWLMQMITGLL-----MIL-LVTAHFYVTHMTTHD---ALRY-AE-----VVER-----V--AQ-PEFK---------AL--YALLLLAVSFHAFNGLRAIL--LDTNAG-M-----RKKGAV--SA-LTTLAFLLAFFYGL-------
+#=GR sp|O29573|DHSD_ARCFU/11-111   PP .....................67789**********.....***.***************...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.***********997.......
+sp|P0AC44|DHSD_ECOLI/16-113           --------------------------FILVRATAIV-----LTL-YIIYMVGFF--ATSG---ELTY-EV-----WIGF-----F--AS-AFTK---------VF--TLLALFSILIHAWIGMWQVL--TDYVKP-L-----ALRLML--QL-VIVVALVVYVIYGF---VVVW
+#=GR sp|P0AC44|DHSD_ECOLI/16-113   PP ..........................89********.....***.*****9999..59**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9...5677
+sp|P0AC45|DHSD_ECOL6/16-113           --------------------------FILVRATAIV-----LTL-YIIYMVGFF--ATSG---ELTY-EV-----WIGF-----F--AS-AFTK---------VF--TLLALFSILIHAWIGMWQVL--TDYVKP-L-----ALRLML--QL-VIVVALVVYVIYGF---VVVW
+#=GR sp|P0AC45|DHSD_ECOL6/16-113   PP ..........................89********.....***.*****9999..59**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9...5677
+sp|P0AC46|DHSD_SHIFL/16-113           --------------------------FILVRATAIV-----LTL-YIIYMVGFF--ATSG---ELTY-EV-----WIGF-----F--AS-AFTK---------VF--TLLALFSILIHAWIGMWQVL--TDYVKP-L-----ALRLML--QL-VIVVALVVYVIYGF---VVVW
+#=GR sp|P0AC46|DHSD_SHIFL/16-113   PP ..........................89********.....***.*****9999..59**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9...5677
+sp|Q8X9A9|DHSD_ECO57/16-113           --------------------------FILVRATAIV-----LTL-YIIYMVGFF--ATSG---ELTY-EV-----WIGF-----C--AS-AFTK---------VF--TLLALFSILIHAWIGMWQVL--TDYVKP-L-----ALRLML--QL-VIVVALVVYVIYGF---VVVW
+#=GR sp|Q8X9A9|DHSD_ECO57/16-113   PP ..........................89********.....***.*****9999..59**...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.*************9...5677
+sp|P51057|DHSD_COXBU/15-108           --------------------------WFVQRITALL-----SGIYAVFVIVFLL---VHH---PISY-PQ-----WHAL-----F--SH-LIMK---------IF--TLIVIFSILWHAWIGMWTIF--TDYVKN-K-----PIRLAL--ET-LVCLLLVGYFVWAI-------
+#=GR sp|P51057|DHSD_COXBU/15-108   PP ..........................99********.....8762455555555...899...****.**.....****.....*..**.****.........**..********************..******.*.....******..**.***********996.......
+sp|P80482|DHSD_RECAM/6-109            --------------LHFIRTKSGSMHWWLQRFLAIL-----LAP-IILYLLFDVAIYIGQ---QSDP-T------VMMF-----L--NR-IFNHN-------SIF--IFITSVILIWHVRGGMEVII--EDYVHG-E-----KT-------R-IVSIFLIRVIAIEI-------
+#=GR sp|P80482|DHSD_RECAM/6-109    PP ..............7899******************.....***.**********98888...8887.7......889*.....*..**.**999.......99*..********************..******.*.....**.......9.99999999998886.......
+sp|Q6ZH92|SDH31_ORYSJ/80-125          ------ANRPLSPHLPLKKPQLSATFSISHRIFGAA-----LGA-AIISIPLATKFSL--------------------------------------------------------------------------------------------------------------------
+#=GR sp|Q6ZH92|SDH31_ORYSJ/80-125  PP ......69****************************.....***.*****99999886....................................................................................................................
+sp|Q84VK7|SDH32_ORYSJ/80-125          ------ANRPLSPHLPLKKPQLSATFSISHRIFGAA-----LGA-VIISIPLATKFSL--------------------------------------------------------------------------------------------------------------------
+#=GR sp|Q84VK7|SDH32_ORYSJ/80-125  PP ......69****************************.....***.****999999886....................................................................................................................
+sp|Q12106|MCP1_YEAST/173-270          -----------------------------QVISGYI-----LVP-VLIYHLLIMKWVPNSISTEVDF-AS-----IKQL-----LSSKN-RWWKWL----GGLVP--LAILLESGVYHIGSGLCRYF---GVRKM-T-----SR-KKW--STAINLLTLVGFV-----------
+#=GR sp|Q12106|MCP1_YEAST/173-270  PP .............................569****.....***.*******999877664447789.99.....9888.....73345.788856....66555..99999999*******98877...33333.3.....33.444..3303333344333...........
+#=GC PP_cons                          7878899**************99*************.....*9*.*********999999...9999.99.....9999.....9..99.9999.........99..********************..**9*99.9.....******..*9.999999999999989887889
+#=GC RF                               xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.....xxx.xxxxxxxxxxxxxxx...xxxx.xx.....xxxx.....x..xx.xxxx.........xx..xxxxxxxxxxxxxxxxxxxx..xxxxxx.x.....xxxxxx..xx.xxxxxxxxxxxxxxxxxxxxx
+//
