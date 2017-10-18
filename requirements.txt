@@ -1,0 +1,4 @@
+biopython==1.70
+numpy==1.13.3
+snakemake==4.1.0
+docutils==0.14
