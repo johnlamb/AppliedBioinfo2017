@@ -10,6 +10,7 @@ id="${1%.fa}"
 filename="${id##*/}"
 # echo $id
 mydir=$(mktemp -d "${TMPDIR:-/tmp/}$(basename $0).XXXXXXXXXXXX")
+# Use the --cpu flag to set number of threads
 jackhmmer -A $filename.sto $1 ~/data/swissprot.fasta > /dev/null
 # echo "...done"
 cat $filename.sto

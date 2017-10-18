@@ -1,7 +1,70 @@
+configfile: "config.yaml"
+IDS, = glob_wildcards(config["inputdir"]+"/{id}.fa")
+
+
+rule all:
+    input:
+        config["outputdir"] + "report.html"
+
+
+
 rule alignment:
     input:
-        "../data/examples/1b9ua.fa"
+        config["inputdir"] + "{sample}.fa"
     output:
-        "../results/20171014_snakemake/aligned/1b9ua.sto"
+        config["outputdir"] + "/aligned/{sample}.sto"
     shell:
         "./run_aligner.sh {input} > {output}"
+
+
+
+rule convert:
+    input:
+        config["outputdir"] + "/aligned/{sample}.sto"
+    output:
+        config["outputdir"] + "/converted/{sample}.aln"
+    shell:
+        "./run_converter.sh {input} > {output}"
+
+
+
+rule predict:
+    input:
+        config["outputdir"] + "/converted/{sample}.aln"
+    output:
+        config["outputdir"] + "/predictions/{sample}.mat"
+    shell:
+        "./run_predictor.sh {input} > {output}"
+       
+
+
+rule report:
+    input:
+        expand("{outdir}/predictions/{sample}.mat", outdir=config["outputdir"], sample=IDS)
+    output:
+        config["outputdir"] + "/report.html"
+    run:
+        import numpy as np
+        from snakemake.utils import report 
+        from top_couplings import get_top_pairs
+
+        couplings=config["outputdir"] + "/top_couplings.txt"
+        mat = np.loadtxt(input[0])
+        with open(couplings,"w") as coup:
+            # find top-scoring pairs with sufficient separation
+            top = get_top_pairs(mat, 10, 7)
+            coup.write("#i\tj\tconfidence\n")
+            for i, j, coupling in zip(top[0], top[1], mat[top]):
+                coup.write("{0}\t{1}\t{2}\n".format(i, j, coupling))
+        
+
+        report("""
+        Contact prediction for 1b9ua
+        ============================
+
+        Alignment was done and can be found in the aligned/ directory.
+        Convertion to .aln is found in the converted/ directory.
+        The final prediction can be found in the predictions/ directory.
+
+        See below (Table T1_) for the top couplings (min distance 7).
+        """, output[0], T1=couplings, metadata="Author: John Lamb (john@biolamb.se), Stockholm University, Scilife Lab") 
