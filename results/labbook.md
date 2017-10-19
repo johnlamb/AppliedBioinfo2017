@@ -22,7 +22,8 @@ Initial testing is being done using the following programs:
     ccmpred (cloned from git 2017-10-04)
 
 
-2017-10-04 *Startup*
+**2017-10-04** *Startup*
+
     Initial startup. The structure of the project set up and a rough sketch is
     laid out, see above. Tested jackhmmer with default parameters with swissprot
     as database. Sufficiently fast for development. ccmpred is also installed. 
@@ -31,19 +32,21 @@ Initial testing is being done using the following programs:
     need for any change in the workflow for cuda support, only reinstallation
     of ccmpred when cuda is installed and ccmpred will automatically pick it up).
 
-2017-10-05 *Manually stepping through*
+**2017-10-05** *Manually stepping through*
+    
     The idea today is to manually run through an example, from fasta to finished
     .mat file. 
 
     Command for running jackhmmer:
-    $ jackhmmer -A output input database > /dev/null
+    `$ jackhmmer -A output input database > /dev/null`
 
     Using 1b9ua.fa as example input. With jackhmmer in the PATH the example was run without a problem. The additional
     script convert\_sto.py converts the resulting stockholm format into a3m/aln/fasta. All three working well, aln is the
     input for ccmpred.  The run\_aligner.sh script takes a fasta name as input (only looks in the example folder) and runs
     jackhmmer against swissprot, then the resulting .sto file is converted into .aln.
 
-2017-10-11 *Running ccmpred*
+**2017-10-11** *Running ccmpred*
+
     Using the output file created with jackhmmer from the previous run, we testrun ccmpred. I have already run it with the
     example file but lets do it with our own data.
     Running with default options:
@@ -58,7 +61,8 @@ Initial testing is being done using the following programs:
     Next step is to take this and convert to a snakemake script. The main difference here would be that the snakemake
     script would use the intermediate files. In the current script they are all created in the /tmp and purged after use.
 
-2017-10-14 *Snakemake*
+**2017-10-14** *Snakemake*
+    
     With a working script, lets convert it into snakemake. The idea now is to take each step and turn it into a snakemake
     rule and also to keep the individual intermittent files, probably in separate directories. 
     Alignment done in snakemake. Starting with hardcoded input and output but these will change so te be used either as
@@ -67,13 +71,15 @@ Initial testing is being done using the following programs:
     Next step is to extend this to do both the convertion and ccmpred prediction in the same script with intermediate
     results. 
 
-2017-10-16 *Snakemake extend*
+**2017-10-16** *Snakemake extend*
+
     Ok lets add in the other steps. Output path is still hardcoded so changing to todays result folder. 
     Have changed so input and output folders are now set in the config.yaml file. (this could be overridden on the 
     commandline by using the command *snakemake --config foo=bar*). It all flows, some tweaks and moving script
     directory and it should all be done.
 
-2017-10-18 *Final Tweaks*
+**2017-10-18** *Final Tweaks*
+    
     Full workflow working. Multiple files can be run and the result in a prediction file each and one summary file
     in total that summarizes the top 10 couplings in each sample.
     I have made the scripts modular so both the aligner and predictor can be replace. All that needs to be done is adjust
@@ -83,3 +89,8 @@ Initial testing is being done using the following programs:
     Currently I have bundles this workflow with jackhmmer and ccmpred so it can run standalone. Also see the requirements
     file in the root for python packages.
     On to writing the report.
+
+**2017-10-19** *Report and final tweaks*
+
+    Always something left to tweak. Report is written and documentation done for install/use. Made it clear that only
+    the wrapper scripts needs to be tweak to run another aligner/predictor than the bundled.
