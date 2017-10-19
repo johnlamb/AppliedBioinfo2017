@@ -22,7 +22,7 @@ Initial testing is being done using the following programs:
     ccmpred (cloned from git 2017-10-04)
 
 
-**2017-10-04** *Startup*
+**2017-10-04** Startup*
 
     Initial startup. The structure of the project set up and a rough sketch is
     laid out, see above. Tested jackhmmer with default parameters with swissprot
