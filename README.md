@@ -12,7 +12,9 @@
 
 ### Install ###
 Clone the repo and create a Python3 virtual environemtn of your liking. In the root folder, run:
+
 `pip install -r requirements.txt`
+
 This will install all required Python packages.
 
 The workflow comes bundles with jackhmmer and ccmpred as aligner and contact predictor respectively. To use your own
@@ -26,7 +28,9 @@ Also set your input directory where your fasta files reside.
 The default output directory is ./result.
 
 After the config.yaml file has been edited, run the follow:
+
 `snakemake -j`
+
 The -j flag tells snakemake to use all available cores. To use fewer append the number of cores to use.
 
 ## Content
