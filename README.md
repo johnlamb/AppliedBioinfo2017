@@ -13,7 +13,7 @@
 
 ## Content
 
-  Root --
+        Root --
         |
         bin ------
                  |
