@@ -1,16 +1,23 @@
 import multiprocessing
+import os.path
+import sys
 import numpy as np
 from snakemake.utils import report 
 from script.top_couplings import get_top_pairs
 
 configfile: "config.yaml"
 IDS, = glob_wildcards(config["inputdir"]+"/{id}.fa")
-
 maxThreads = multiprocessing.cpu_count()
+
 if config["threads"] > 0:
     maxThreads = config["threads"]
+if not os.path.exists(os.path.exists(os.path.expanduser(config["databasefile"]))):
+    print("Have you set the database file in the config.yaml file?\n")
+    sys.exit(1)
+if not os.path.exists(config["inputdir"]):
+    print("Have you set the correct input directory in the config.yaml file?\n")
+    sys.exit(1)
 
-    
 rule all:
     threads: 1
     input:
@@ -23,7 +30,7 @@ rule alignment:
         config["outputdir"] + "/aligned/{sample}.sto"
     threads: maxThreads
     shell:
-        "script/run_aligner.sh {input} > {output}"
+        "script/run_aligner.sh {input} " + config["databasefile"] + " > {output}"
 
 
 

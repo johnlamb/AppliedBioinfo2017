@@ -1,3 +1,4 @@
 inputdir: ../data/examples
-outputdir: ../results/20171018_FinalTouches
+outputdir: results
+databasefile: ~/data/swissprot.fasta
 threads: 0    
